@@ -1,0 +1,43 @@
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1
+$ git init
+Initialized empty Git repository in C:/Users/Desai/Desktop/git 1/.git/
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1 (master)
+$ git add .
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1 (master)
+$ git commit -m "adding again"
+[master (root-commit) 73ea04a] adding again
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1 (master)
+$ git remote add origin https://github.com/Padmanabh2/sample.git//yaha pe git ka link copy paste karna hai
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1 (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 426 bytes | 106.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Padmanabh2/sample.git
+ * [new branch]      master -> master
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Desai@DESKTOP-6S4ABVG MINGW64 ~/Desktop/git 1 (master)
+$
