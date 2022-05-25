@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        width: 100%;
+        /* border: 1px solid red; */
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      #main > div:first-child {
+        /* border: 1px solid; */
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      #main > div:last-child {
+        /* border: 1px solid green; */
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+        padding: 10px;
+      }
+      #main > div:last-child > div {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        /* border: 1px solid; */
+        background-color: #f2fdff;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 8px;
+      }
+      #main > div:last-child > div > img {
+        display: flex;
+        width: 20%;
+        margin-left: 10px;
+      }
+      #main > div:last-child > button {
+        height: 30px;
+        width: 8%;
+        background-color: transparent;
+        /* border: 1px solid red; */
+        border-radius: 8px;
+      }
+      #main > div:last-child > select {
+        border: 0px;
+        height: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div>
+        <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="" />
+      </div>
+      <div>
+        <select>
+          <option value="">Courses</option>
+          <option value="">Full Stack</option>
+          <option value="">Android</option>
+          <option value="">FS Part time</option>
+        </select>
+        <p>Fees & ISA</p>
+        <p>About Us</p>
+        <p>Hire From Us</p>
+        <p>FAQ</p>
+        <p>Events</p>
+        <div>
+          <p>Refer & Earn</p>
+          <img src="https://www.masaischool.com/img/referral/hand.png" alt="" />
+        </div>
+        <button>Login</button>
+      </div>
+    </div>
+  </body>
+</html>
