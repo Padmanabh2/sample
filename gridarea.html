@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        /* border: 1px solid red; */
+        width: 65%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 120px);
+        grid-template-areas:
+          "a a b b"
+          "c d d d"
+          "e e e e";
+        gap: 25px;
+      }
+      #container > div {
+        /* border: 1px solid; */
+        border-radius: 15px;
+        font-size: 35px;
+      }
+      #container > div:nth-child(1) {
+        background-color: gray;
+        grid-area: a;
+        padding-left: 15px;
+      }
+      #container > div:nth-child(2) {
+        background-color: gray;
+        grid-area: b;
+        padding-left: 15px;
+      }
+      #container > div:nth-child(3) {
+        background-color: gray;
+        grid-area: c;
+        padding-left: 15px;
+      }
+      #container > div:nth-child(4) {
+        background-color: gray;
+        grid-area: d;
+        padding-left: 15px;
+      }
+      #container > div:nth-child(5) {
+        background-color: gray;
+        grid-area: e;
+        padding-left: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div>a</div>
+      <div>b</div>
+      <div>c</div>
+      <div>d</div>
+      <div>e</div>
+    </div>
+  </body>
+</html>
